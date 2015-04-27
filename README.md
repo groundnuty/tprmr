@@ -1,5 +1,7 @@
 Further README in wordcount folder.
 
+login: hadoop
+user sudo for root.
 
 # Available clusters:
 
