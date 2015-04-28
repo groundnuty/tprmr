@@ -1,18 +1,17 @@
 # Instruction
 
-1. Install Git
-2. Clone this repository.
-3. Open project in IntelliJ IDEA – configure java SDK if needed (it’s in Program Files)
-4. Launch WorkCount and WordCountTest locally. 
-5. Configure putty and winscp with proper hadoop address
-6. Create jar with maven from windows command line
-7. Upload jar and sample dataset to the hadoop cluster
-8. Run WordCount on hadoop cluster using sample dataset
-9. Check the number of executed map and reduce tasks (and save those numbers)
-10. Modify the Mapper so that it combines results locally
-11. Run new version on the hadoop cluster
+
+1. Download this repository.
+2. Open project in IntelliJ IDEA – configure java SDK if needed (it’s in Program Files)
+3. Launch WorkCount and WordCountTest locally. 
+4. Configure putty and winscp with proper hadoop address
+5. Create jar with maven from windows command line (we need to download all maven dependencies, lets start now)
+6. Mofity the code so that it outputs Top20 most frequent terms.
+7. Fix tests.
+8. Run Top20 on cluster and notice numbers of map and reduce tasks.
+9. Add Combiner to Top20 code.
+10. Run new verison of Top20 on the cluster.
 12. Compare number of map and reduce tasks with previous results 
-13. Write a map reduce job that takes results of WordCount sorts them.
 
 
 
